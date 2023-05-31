@@ -315,7 +315,7 @@ font-size: xx-large;
   
   
        .introd{
-        /* overflow: hidden; */
+      
         min-width: 0px;
           background-image: url(top.jpg);
           grid-area: nav;
@@ -331,7 +331,7 @@ font-size: xx-large;
       }
       
       main{
-        /* overflow: hidden; */
+        
         min-width: 0px;
         font-size: 70px;
            background-image: url(top.jpg); 
@@ -357,7 +357,7 @@ font-size: xx-large;
       
       
       #sidebar{
-        /* overflow: hidden; */
+        
         min-width: 0px;
         background-image: url(top.jpg);
           grid-area: sidebar;
@@ -370,7 +370,7 @@ font-size: xx-large;
       }
       
       #content1{
-        /* overflow: scroll; */
+        
         min-width: 100px;
          background-image: url(TODO.jpg);
           grid-area: content1;
@@ -380,7 +380,7 @@ font-size: xx-large;
           
       }
       #content2{
-        /* overflow: hidden; */
+       
         min-width: 0px;
         background-image: url(CALENDER2.png);
         
@@ -409,7 +409,7 @@ font-size: xx-large;
       
       
       footer{
-        /* overflow: hidden; */
+        
         min-width: 0px;
          background-image: url(expense.jpg);
           grid-area: footer;
