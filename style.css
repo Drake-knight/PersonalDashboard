@@ -236,7 +236,8 @@ font-size: xx-large;
 }
 
 #calender-heading{
-    margin-left: 370px;
+  text-align: center;
+  font-size: xx-large;
 
 
 }
@@ -458,11 +459,12 @@ font-size: xx-large;
         
       }
       
-      #calender-heading{
-          margin-left: 140px;
+       #calender-heading{
+          text-align: center;
+          font-size: xx-large;
       
       
-      }
+      } 
       
       
       
