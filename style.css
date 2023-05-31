@@ -20,7 +20,7 @@
 .introd{
 
 
-
+      background-image: url(top.jpg);
       grid-area: nav;
       display: flex;
       justify-content: center;
@@ -34,9 +34,9 @@
   }
 
 
-  main{
+  .maain{
 
-
+    background-image: url(top.jpg);
 
 
 
@@ -62,7 +62,7 @@
   #sidebar{
 
 
-
+    background-image: url(top.jpg);
       grid-area: sidebar;
       color: #fff;
       border-right: solid;
@@ -76,7 +76,7 @@
 #content1{
 
 
-
+    background-image: url(TODO.jpg);
       grid-area: content1;
 
       grid-gap: 0.1rem;
@@ -87,6 +87,7 @@
 
 
   #content2{
+    background-image: url(CALENDER2.png);
 
       grid-area: content2;
 
@@ -98,6 +99,8 @@
   #content3{
 
 
+    background-image: url(email.jpg);
+
       grid-area: content3;
 
       grid-gap: 0.1rem;
@@ -105,14 +108,26 @@
       border-style: groove;
   }
 
+  .email{
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+
 
 
 footer{
 
       grid-area: footer;
-
+      background-image: url(expense.jpg);
       grid-gap: 0.1rem;
       border-style: groove;
+  }
+
+
+  .expense{
+    text-align: center;
+    font-size: xx-large;
   }
 
 
