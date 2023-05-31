@@ -225,3 +225,24 @@ font-size: xx-large;
 
 
 }
+
+
+/* email */
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table2 th {
+    background-color: #333;
+    color: #fff;
+    height: 10px;
+    text-align: center;
+  }
+  
+  .table2 td {
+    border: 1px solid #ccc;
+    height: 10px;
+    padding: 20px;
+   
+  }
