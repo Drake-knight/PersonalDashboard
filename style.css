@@ -246,3 +246,30 @@ font-size: xx-large;
     padding: 20px;
    
   }
+
+
+  /* expense */
+
+  .table3 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table3 th {
+    background-color: #333;
+    color: #fff;
+    height: 10px;
+    text-align: center;
+}
+
+.table3 td {
+    border: 1px solid #ccc;
+    height: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.table3 td:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
