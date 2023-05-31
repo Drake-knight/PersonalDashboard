@@ -114,3 +114,79 @@ footer{
       grid-gap: 0.1rem;
       border-style: groove;
   }
+
+
+
+
+
+  /* to do list */
+
+.todo {
+    width:100% ;
+    margin: 0 auto;
+}
+#task-input{
+    margin-left: 340px;
+    font-size: large;
+
+}
+
+.to-do-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#add-task-btn{
+    font-size: large;
+}
+
+#task-list {
+    list-style: circle;
+    margin-left: 370px;
+    text-decoration: double;
+font-size: xx-large;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-list li label {
+    flex-grow: 1;
+    margin: 0;
+}
+
+
+
+/* sidebar */
+
+.sidebar {
+    width: 100px;
+    
+    
+  }
+  
+  .sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  
+  .sidebar-nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ece9e9;
+    font-size: 20px;
+  }
+  
+  .sidebar-nav li a:hover {
+    background-color: #aaaaaa;
+  }
